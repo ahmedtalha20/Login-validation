@@ -1,0 +1,57 @@
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.form{
+    width: 400px;
+    height: 400px;
+    background: blue;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.form button{
+    display: flex;    
+    flex-flow: column nowrap;
+}
+
+.btn{
+    margin: 20px;
+    padding: 15px;
+    font-weight: bold;    
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    position: relative;
+}
+
+.valid{
+    background: rgb(0, 175, 0);
+}
+
+.valid:hover{
+    background: rgb(0, 255, 0);
+}
+
+.invalid{
+    background: rgb(175, 0, 0);    
+}
+
+.invalid:hover{
+    background: rgb(255, 0, 0);    
+}
+
+.toCenter{
+    left: 0;
+}
+
+.toRight{
+    left: 100px;
+}
